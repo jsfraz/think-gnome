@@ -1,6 +1,7 @@
 name: think
 
 services:
+
   syncthing:
     image: syncthing/syncthing
     container_name: syncthing
@@ -18,3 +19,17 @@ services:
       interval: 1m
       timeout: 10s
       retries: 3
+  
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    restart: always
+    ports:
+      # - "127.0.0.1:9000:9000"
+      - "127.0.0.1:9443:9443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+volumes:
+  portainer_data:
