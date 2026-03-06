@@ -24,12 +24,18 @@ cd nerd-fonts
 
 ### matugen
 
-`matugen` is used to generate SCSS files for other programs based on the current accent color.
+`matugen` is used to generate config files for other programs based on the current accent color.
 
 #### Linking config
 
 ```bash
 ln -sf $PWD/.config/matugen ~/.config/matugen
+```
+
+To regenerate configs after accent/color scheme change, make sure to start `~/.config/matugen/watch_style.sh` on GNOME login:
+
+```bash
+ln -s ~/.config/matugen/gnome-style-monitor.desktop ~/.config/autostart/gnome-style-monitor.desktop
 ```
 
 ### alacritty
