@@ -21,7 +21,7 @@ services:
       retries: 3
   
   portainer:
-    image: portainer/portainer-ce:latest
+    image: portainer/portainer-ce:lts
     container_name: portainer
     restart: always
     ports:
