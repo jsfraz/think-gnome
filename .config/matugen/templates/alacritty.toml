@@ -35,17 +35,6 @@ text = '{{colors.background.default.hex}}'
 background = '{{colors.primary.default.hex}}'
  
  
-[colors.normal]
-black = '#181818' 
-red = '{{colors.error.default.hex}}' 
-green = '{{colors.primary.default.hex}}' 
-yellow = '{{colors.inverse_primary.default.hex}}' 
-blue = '{{colors.primary.default.hex}}' 
-magenta = '{{colors.tertiary.default.hex}}' 
-cyan = '{{colors.secondary.default.hex}}' 
-white = '#BAC2DE' 
- 
- 
 [colors.bright]
 black = '#585B70' 
 red = '#F38BA8' 

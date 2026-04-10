@@ -1,13 +1,22 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "type": "small",
+    "source": "aperture",
+    // "source": "blackmesa",
     "color": {
       "1": "{{colors.source_color.default.hex}}",
-      "2": "{{colors.source_color.default.hex}}"
+      "2": "{{colors.source_color.default.hex}}",
+      "3": "{{colors.source_color.default.hex}}",
+      "4": "{{colors.source_color.default.hex}}",
+      "5": "{{colors.source_color.default.hex}}",
+      "6": "{{colors.source_color.default.hex}}",
+      "7": "{{colors.source_color.default.hex}}",
+      "8": "{{colors.source_color.default.hex}}",
+      "9": "{{colors.source_color.default.hex}}"
     },
     "padding": {
-      "left": 3
+      "left": 2,
+      "right": 3
     }
   },
   "display": {
